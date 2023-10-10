@@ -24,9 +24,13 @@ Code is organized as follows:
          endpoints, as well as, the DB queries involved:
 
     a. /api/customers               --> getting all the customers information from the db                                      GET
+
     b. /api/customer/{id}           --> getting just an user, only the information from one user, just by specifying an ID.    GET
+
     c. /api/customer/add            --> adding an user to the DB and its related information                                   POST
+
     d. /api/customer/update/{id}    --> updating the information from an user already created, just by using an user ID        PUT
+    
     e. /api/customer/delete/{id}    --> deleting all information related to an user, just by using an user ID                 DELETE
 
 
