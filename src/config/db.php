@@ -1,10 +1,10 @@
 <?php
     class db{
         // Properties
-        private $dbhost = 'remotemysql.com';
-        private $dbuser = 'y64MtsQZL5';
-        private $dbpass = 'ASbmFQRbdB';
-        private $dbname = 'y64MtsQZL5';
+        private $dbhost = 'localhost';
+        private $dbuser = 'root';
+        private $dbpass = 'root';
+        private $dbname = 'enjoyourpet';
 
         // Connect
         public function connect(){
@@ -13,4 +13,5 @@
             $dbConnection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             return $dbConnection;
         }
+        
     }
